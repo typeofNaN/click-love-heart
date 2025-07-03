@@ -1,0 +1,44 @@
+{
+  "name": "click-love-heart",
+  "version": "1.0.0",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/click-love-heart.js",
+    "require": "./dist/click-love-heart.cjs"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typeofNaN/click-love-heart.git"
+  },
+  "author": {
+    "name": "typeofNaN",
+    "url": "https://github.com/typeofNaN",
+    "email": "dmdefine6@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/typeofNaN/click-love-heart/issues"
+  },
+  "homepage": "https://github.com/typeofNaN/click-love-heart",
+  "license": "MIT",
+  "description": "点击生成爱心动画",
+  "keywords": [
+    "爱心动画"
+  ],
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^7.0.1",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}
