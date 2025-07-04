@@ -1,6 +1,6 @@
 {
   "name": "click-love-heart",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "types": "./dist/index.d.ts",
   "exports": {
     "import": "./dist/click-love-heart.js",

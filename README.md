@@ -27,6 +27,7 @@ type Option = {
 const option: Option = {
   el: document.getElementById('xxx')
 }
+
 new HeartAnimate() // 默认全局
 // or
 new HeartAnimate(option)
@@ -34,6 +35,6 @@ new HeartAnimate(option)
 
 配置项：
 
-| 配置项 | 数据类型    | 是否必填 | 默认值 | 描述   |
-| :----- | :---------- | :------: | :----- | :----- |
-| el     | HTMLElement |  Window  | 否     | window | 作用于哪个元素，默认window |
+| 配置项 | 数据类型           | 是否必填 | 默认值 | 描述                       |
+| :----- | :----------------- | :------: | :----- | :------------------------- |
+| el     | HTMLElement/Window |    否    | window | 作用于哪个元素，默认window |
