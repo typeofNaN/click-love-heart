@@ -1,10 +1,12 @@
 {
   "name": "click-love-heart",
-  "version": "1.0.2",
-  "types": "./dist/index.d.ts",
+  "version": "1.0.3",
   "exports": {
-    "import": "./dist/click-love-heart.js",
-    "require": "./dist/click-love-heart.cjs"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/click-love-heart.js",
+      "require": "./dist/click-love-heart.cjs"
+    }
   },
   "type": "module",
   "scripts": {
